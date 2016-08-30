@@ -132,6 +132,11 @@ rx-field-name {
          .button {
             margin-bottom: 0;
           }
+          input, textarea {
+            &:focus {
+              box-shadow: @app-input-focus-shadow;
+            }
+          }
 
           & > input,
           & > textarea {
