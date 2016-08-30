@@ -91,14 +91,14 @@ describe('rxCheckbox', function () {
 
     describe('plain HTML checkboxes', function () {
         describe('Valid Enabled Unchecked', encore.exercise.rxCheckbox({
-            instance: encore.rxCheckbox.initialize($('#plainSelNormal')),
+            instance: encore.rxCheckbox.initialize($('#plainHtmlNormal')),
             disabled: false,
             selected: false,
             valid: false
         }));
 
         describe('Valid Disabled Unchecked', encore.exercise.rxCheckbox({
-            instance: encore.rxCheckbox.initialize($('#plainSelDisabled')),
+            instance: encore.rxCheckbox.initialize($('#plainHtmlDisabled')),
             disabled: true,
             selected: false,
             valid: false

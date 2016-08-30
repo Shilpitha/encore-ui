@@ -1,4 +1,4 @@
 angular.module('demoApp')
-.controller('rxSelectSimpleCtrl', function ($scope) {
+.controller('rxSelectDestroyCtrl', function ($scope) {
     $scope.radCreateDestroy = 'destroyed';
 });
