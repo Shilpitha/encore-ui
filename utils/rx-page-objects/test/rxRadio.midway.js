@@ -255,7 +255,7 @@ describe('rxRadio', function () {
 
             it('target radio should be present', function () {
                 radTargetCreated = rxRadioPage.initialize($('#radTargetCreated'));
-                expect(radTargetCreated.isPresent()).to.eventually.be.true;
+                expect(radTargetCreated.isPresent()).to.eventually.be.false;
             });
         });
 
